@@ -1,2 +1,2 @@
 ﻿git tesztelgetése
-változ
+változtat
