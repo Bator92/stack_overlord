@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_L2FZ4IIGEeK06LbiDBhpYQ">
-  <modelElement href="stack_overlord.uml#_L1fkAIIGEeK06LbiDBhpYQ"/>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_yt-W4IIOEeKfk-n8Aekwfg">
+  <modelElement href="stack_overlord.uml#_ymXTAIIOEeKfk-n8Aekwfg"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_y6uZcIIOEeKfk-n8Aekwfg" name="Main">
+    <modelElement href="stack_overlord.uml#_y1tWkIIOEeKfk-n8Aekwfg"/>
+    <visualProperties xmi:id="_y6uZcYIOEeKfk-n8Aekwfg" position="30.0,30.0"/>
+    <visibility xmi:id="_y6uZcoIOEeKfk-n8Aekwfg" label="+"/>
+    <operations xmi:id="_y6uZc4IOEeKfk-n8Aekwfg" name="main" staticOperation="true">
+      <modelElement href="stack_overlord.uml#_y13HmIIOEeKfk-n8Aekwfg"/>
+      <stereotypes xmi:id="_y6uZdIIOEeKfk-n8Aekwfg" name="LegacyStyledElement">
+        <modelElement href="stack_overlord.uml#_y13HmoIOEeKfk-n8Aekwfg"/>
+      </stereotypes>
+      <visibility xmi:id="_y6uZdYIOEeKfk-n8Aekwfg" label="+"/>
+      <parameters xmi:id="_y6uZdoIOEeKfk-n8Aekwfg" name="args">
+        <modelElement href="stack_overlord.uml#_y13HmYIOEeKfk-n8Aekwfg"/>
+        <type xmi:id="_y6uZd4IOEeKfk-n8Aekwfg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
 </com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

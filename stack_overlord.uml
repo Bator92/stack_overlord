@@ -1,2 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_L1fkAIIGEeK06LbiDBhpYQ" name="stack_overlord"/>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_ymXTAIIOEeKfk-n8Aekwfg" name="stack_overlord">
+    <eAnnotations xmi:id="_ywZ_0IIOEeKfk-n8Aekwfg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_ywZ_0YIOEeKfk-n8Aekwfg" source="codegen">
+        <details xmi:id="_ywZ_0oIOEeKfk-n8Aekwfg" key="codegenDirectory" value="/stack_overlord/src"/>
+        <details xmi:id="_y6begIIOEeKfk-n8Aekwfg" key="AssociatedSourceCode" value="/stack_overlord/src/Main.java;2341934564/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_y1tWkYIOEeKfk-n8Aekwfg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_y13HkIIOEeKfk-n8Aekwfg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_y13HkYIOEeKfk-n8Aekwfg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_y13HkoIOEeKfk-n8Aekwfg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_y13Hk4IOEeKfk-n8Aekwfg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_y13HlIIOEeKfk-n8Aekwfg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_y13HlYIOEeKfk-n8Aekwfg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_y13HloIOEeKfk-n8Aekwfg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_y13Hl4IOEeKfk-n8Aekwfg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_y1tWkIIOEeKfk-n8Aekwfg" name="Main">
+      <ownedOperation xmi:id="_y13HmIIOEeKfk-n8Aekwfg" name="main" isStatic="true">
+        <ownedParameter xmi:id="_y13HmYIOEeKfk-n8Aekwfg" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_y13Hm4IOEeKfk-n8Aekwfg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <profileApplication xmi:id="_ywjw0IIOEeKfk-n8Aekwfg">
+      <eAnnotations xmi:id="_ywjw0YIOEeKfk-n8Aekwfg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_ywjw0oIOEeKfk-n8Aekwfg" base_Package="_ymXTAIIOEeKfk-n8Aekwfg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_y13HmoIOEeKfk-n8Aekwfg" base_Element="_y13HmIIOEeKfk-n8Aekwfg"/>
+  <UMLLabProfile:Array xmi:id="_y13HnIIOEeKfk-n8Aekwfg" base_Element="_y13HmYIOEeKfk-n8Aekwfg"/>
+</xmi:XMI>
